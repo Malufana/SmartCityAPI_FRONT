@@ -1,0 +1,91 @@
+
+.criar_container {
+    background-color: #e7f9e7; 
+    border: 2px solid #2e7d32; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+.criar_container h2 {
+    text-align: center;
+    color: #2e7d32; 
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.criar_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.criar_container label {
+    font-weight: bold;
+    color: #2e7d32; 
+    margin-bottom: 5px;
+}
+
+.criar_container input,
+.criar_container select {
+    padding: 10px;
+    border: 1px solid #81c784; 
+    border-radius: 5px;
+    background-color: #f1f8f1; 
+    font-size: 1rem;
+    color: #2e7d32; 
+}
+
+.criar_container input:focus,
+.criar_container select:focus {
+    outline: none;
+    border-color: #388e3c; 
+    box-shadow: 0 0 5px #66bb6a;
+}
+
+.criar_container button {
+    background-color: #388e3c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    align-self: center;
+}
+
+.criar_container button:hover {
+    background-color: #2e7d32; 
+}
+
+.criar_container button:active {
+    background-color: #1b5e20; 
+}
+
+.cardErro {
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+  
+.cardErro h2 {
+    margin: 0 0 8px 0; 
+    font-size: 20px; 
+}
+
+.cardErro p {
+    margin: 0; 
+    font-size: 16px; 
+}

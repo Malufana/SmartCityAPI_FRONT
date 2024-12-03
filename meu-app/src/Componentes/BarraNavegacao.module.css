@@ -1,0 +1,21 @@
+.navbar {
+    background-color: yellowgreen;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 0 1rem; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
