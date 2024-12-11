@@ -17,7 +17,7 @@ export function TabelaTemperatura(){
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/temperatura/", {
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/temperatura/", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

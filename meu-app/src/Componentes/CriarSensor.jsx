@@ -54,7 +54,7 @@ export function CriarSensor(){
                 observacao: observacao
             }
 
-            const response = await axios.post("http://127.0.0.1:8000/api/sensores/",
+            const response = await axios.post("https://anamaluf.pythonanywhere.com/api/sensores/",
                 sensorData,
                 {
                     headers: {
@@ -74,10 +74,10 @@ export function CriarSensor(){
             };
 
             const urlTipo = {
-                Temperatura: "http://127.0.0.1:8000/api/temperatura/",
-                Luminosidade: "http://127.0.0.1:8000/api/luminosidade/",
-                Umidade: "http://127.0.0.1:8000/api/umidade/",
-                Contador: "http://127.0.0.1:8000/api/contador/"
+                Temperatura: "https://anamaluf.pythonanywhere.com/api/temperatura/",
+                Luminosidade: "https://anamaluf.pythonanywhere.com/api/luminosidade/",
+                Umidade: "https://anamaluf.pythonanywhere.com/api/umidade/",
+                Contador: "https://anamaluf.pythonanywhere.com/api/contador/"
             }
 
             if(urlTipo[tipo]){

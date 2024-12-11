@@ -16,7 +16,7 @@ export function TabelaUmidade() {
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/umidade/",{
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/umidade/",{
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

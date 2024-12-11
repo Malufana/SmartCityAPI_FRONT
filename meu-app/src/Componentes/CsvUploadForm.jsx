@@ -52,7 +52,7 @@ export function CsvUploadForm() {
     formData.append('upload_type', uploadType);
     formData.append(uploadType + '_csv', file);
 
-    fetch('http://localhost:8000/api/process-upload/', {
+    fetch('https://anamaluf.pythonanywhere.com/api/process-upload/', {
       method: 'POST',
       body: formData,
       headers: {

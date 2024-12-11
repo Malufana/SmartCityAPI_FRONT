@@ -106,9 +106,9 @@ const Table = () => {
       }
     };
 
-    fetchData("http://127.0.0.1:8000/api/temperatura/", setTemperatura);
-    fetchData("http://127.0.0.1:8000/api/umidade/", setUmidade);
-    fetchData("http://127.0.0.1:8000/api/luminosidade/", setLuminosidade);
+    fetchData("https://anamaluf.pythonanywhere.com/api/temperatura/", setTemperatura);
+    fetchData("https://anamaluf.pythonanywhere.com/api/umidade/", setUmidade);
+    fetchData("https://anamaluf.pythonanywhere.com/api/luminosidade/", setLuminosidade);
 
     
   }, [temperatura, umidade, luminosidade]);

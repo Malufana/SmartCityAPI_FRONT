@@ -17,7 +17,7 @@ export function TabelaLuminosidade(){
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/luminosidade/", {
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/luminosidade/", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

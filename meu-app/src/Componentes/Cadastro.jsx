@@ -12,14 +12,14 @@ export function Cadastro(){
         e.preventDefault();
 
         try{
-            const response = await axios.post("http://127.0.0.1:8000/api/create_user/", {
+            const response = await axios.post("https://anamaluf.pythonanywhere.com/api/create_user/", {
                 username: username,
                 email: email,
                 password: password
             }); 
             console.log("aaa");
 
-            const tokenResponse = await axios.post("http://127.0.0.1:8000/api/token/", {
+            const tokenResponse = await axios.post("https://anamaluf.pythonanywhere.com/api/token/", {
                 username: username,
                 password: password
             });

@@ -27,7 +27,7 @@ const Table = () => {
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/temperatura/", {
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/temperatura/", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -48,7 +48,7 @@ const Table = () => {
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/umidade/",{
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/umidade/",{
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -69,7 +69,7 @@ const Table = () => {
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/luminosidade/", {
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/luminosidade/", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -90,7 +90,7 @@ const Table = () => {
             }
 
             try{
-                const response = await axios.get("http://127.0.0.1:8000/api/contador/", {
+                const response = await axios.get("https://anamaluf.pythonanywhere.com/api/contador/", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
